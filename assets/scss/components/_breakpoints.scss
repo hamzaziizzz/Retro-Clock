@@ -41,9 +41,13 @@
          width: 8px;
          height: 8px;
       }
+      &__seconds{
+         width: 3px;
+         height: 64px;
+      }
       &__minutes{
          width: 3px;
-         height: 62px;
+         height: 60px;
       }
       &__hour{
          width: 3px;
@@ -60,7 +64,8 @@
       &__day,
       &__year,
       &__text-hour,
-      &__text-minutes{
+      &__text-minutes,
+      &__text-seconds{
          font-size: var(--h1-font-size);
       }
    }
