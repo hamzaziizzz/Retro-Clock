@@ -99,7 +99,8 @@ body {
 }
 
 .clock__hour, 
-.clock__minutes {
+.clock__minutes,
+.clock__seconds{
   box-shadow: 0 0 6px hsla(0, 0%, 0%, .25);
   position: absolute;
   bottom: 50%;
@@ -124,7 +125,8 @@ body {
 .clock__day, 
 .clock__year, 
 .clock__text-hour, 
-.clock__text-minutes {
+.clock__text-minutes,
+-clock__text-seconds{
   font-size: var(--h2-font-size);
   font-weight: 600;
 }
