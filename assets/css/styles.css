@@ -98,6 +98,12 @@ body {
   background-color: var(--red-color);
 }
 
+.clock__minutes {
+  width: 1px;
+  height: 40px;
+  background-color: var(--red-color);
+}
+
 .clock__hour, 
 .clock__minutes,
 .clock__seconds{
@@ -174,9 +180,13 @@ body {
     width: 8px;
     height: 8px;
   }
+  .clock__seconds {
+    width: 2px;
+    height: 64px;
+  }
   .clock__minutes {
     width: 3px;
-    height: 62px;
+    height: 60px;
   }
   .clock__hour {
     width: 3px;
@@ -193,7 +203,8 @@ body {
   .clock__day, 
   .clock__year, 
   .clock__text-hour, 
-  .clock__text-minutes {
+  .clock__text-minutes,
+  .clock__text-seconds{
     font-size: var(--h1-font-size);
   }
 }
